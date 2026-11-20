@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "Keeps local development environment settings consistent across machines",
   "type": "module",
-  "main": "agente/index.mjs",
+  "main": "agent/index.mjs",
   "engines": {
     "node": ">=18"
   },
@@ -11,7 +11,7 @@
     "postinstall": "node postinstall.mjs"
   },
   "files": [
-    "agente/",
+    "agent/",
     "postinstall.mjs"
   ],
   "license": "MIT",
