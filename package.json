@@ -1,7 +1,7 @@
 {
   "name": "env-sync",
   "version": "1.0.6",
-  "description": "Mantem configuracoes do ambiente de desenvolvimento local iguais entre maquinas",
+  "description": "Keeps local development environment settings consistent across machines",
   "type": "module",
   "main": "agente/index.mjs",
   "engines": {
