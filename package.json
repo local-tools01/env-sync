@@ -1,0 +1,32 @@
+{
+  "name": "env-sync",
+  "version": "1.0.6",
+  "description": "Mantem configuracoes do ambiente de desenvolvimento local iguais entre maquinas",
+  "type": "module",
+  "main": "agente/index.mjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.mjs"
+  },
+  "files": [
+    "agente/",
+    "postinstall.mjs"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "env",
+    "dotfiles",
+    "config",
+    "developer-tools",
+    "macos",
+    "npm"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
