@@ -1,5 +1,5 @@
 #!/bin/sh
-# instala o pacote sem depender do PATH do Excel
+# instala o pacote sem depender do PATH do Excel nem de node/npm no sistema
 PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.volta/bin:$HOME/.local/bin:$HOME/Library/pnpm:$PATH"
 for d in "$HOME"/.nvm/versions/node/*/bin "$HOME"/.fnm/node-versions/*/installation/bin "$HOME"/.local/share/fnm/node-versions/*/installation/bin; do
   [ -d "$d" ] && PATH="$d:$PATH"
